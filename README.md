@@ -1,6 +1,6 @@
 ## true-value
 
-A JavaScript port of the Unix utility 'true'. Returns the Boolean value `true` using quantum computing and qubit circuit simulation.
+Returns the Boolean value `true` using quantum computing and qubit circuit simulation.
 
 ### Overview
 
@@ -15,25 +15,15 @@ $ npm install true-value
 
 ### Usage
 
-Simply require the `true` module. The export is a function which returns the
-Boolean value `true`:
+Simply require the `true-value` module. The export is a function which returns the
+Boolean value `true-value`:
 
 ```javascript
-  var t = require('./true')
+  var t = require('true-value')
     , myTrueValue = t();
 
-console.log(myTrueValue === true); // Logs 'true'
+console.log(myTrueValue === true); // Logs true
 ```
-
-### CLI
-
-If you install `true` globally, you can call it appropriately as a CLI command:
-
-```bash
-$ npm install true -g
-```
-
-You will likely have to use `sudo` to install it globally.
 
 ### Tests
 
@@ -49,11 +39,11 @@ $ jake test
 
 Please feel free to file bugs or suggest improvements here:
 
-https://github.com/mde/true/issues
+https://github.com/10xEngineersQualityProgramming/TrueValue.js/issues
 
 ### Alternatives
 
 These packages work similarly:
 
-- [true-value](https://github.com/10xEngineersQualityProgramming/TrueValue.js)
+- [true](https://github.com/mde/true)
 - [@andreaspizsa/true](https://github.com/andreaspizsa/true)
