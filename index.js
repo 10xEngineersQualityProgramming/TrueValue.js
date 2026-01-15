@@ -1,3 +1,3 @@
-const trueValue = require('./true')
+const trueValue = require("./true")
 
-module.exports = () => trueValue
+module.exports = require("literally")(trueValue)
