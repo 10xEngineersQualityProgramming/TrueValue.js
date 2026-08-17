@@ -1,6 +1,6 @@
 {
   "name": "true-value",
-  "version": "3.0.3",
+  "version": "3.0.4",
   "description": "True",
   "keywords": [
     "jsfruit",
@@ -32,8 +32,12 @@
     "test": "mocha test.js"
   },
   "devDependencies": {
-    "mocha": "^11.7.5",
     "@10xly/eslint-config": "1.0.8",
-    "eslint": "^9.39.3"
+    "eslint": "^9.39.3",
+    "mocha": "^11.7.5"
+  },
+  "dependencies": {
+    "@positive-numbers/nine": "^3.0.0",
+    "casting-out-nines": "^1.0.2"
   }
 }
